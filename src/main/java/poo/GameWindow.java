@@ -31,7 +31,7 @@ public class GameWindow extends Application implements GameListener {
 
 		DeckView deckJ1 = new DeckView(1);
 		ScrollPane sd1 = new ScrollPane();
-		sd1.setPrefSize(1280, 384);
+		sd1.setPrefSize(1024, 256);
 		sd1.setContent(deckJ1);
 		grid.add(sd1, 0, 0);
 
@@ -44,7 +44,7 @@ public class GameWindow extends Application implements GameListener {
 
 		DeckView deckJ2 = new DeckView(2);
 		ScrollPane sd2 = new ScrollPane();
-		sd2.setPrefSize(950, 250);
+		sd2.setPrefSize(1024, 256);
 		sd2.setContent(deckJ2);
 		grid.add(sd2, 0, 2);
 
